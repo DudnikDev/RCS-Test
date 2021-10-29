@@ -2,7 +2,8 @@ using System.Threading.Tasks;
 using RetroClash.Logic;
 using RetroClash.Logic.Battle;
 using RetroClash.Protocol.Messages.Server;
-using RetroClash.Helpers;
+//using RetroClash.Helpers;
+using RetroClash.Extensions;
 
 namespace RetroClash.Protocol.Commands.Client
 {
