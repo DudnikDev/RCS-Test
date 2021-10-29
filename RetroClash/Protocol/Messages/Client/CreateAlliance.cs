@@ -31,7 +31,7 @@ namespace RetroClash.Protocol.Messages.Client
 
         public override async Task Process()
         {
-            /*if (await MySQL.CreateAlliance() is Alliance alliance)
+            if (await MySQL.CreateAlliance() is Alliance alliance)
             {
                 alliance.Name = Name;
                 alliance.Description = Description;
@@ -58,7 +58,7 @@ namespace RetroClash.Protocol.Messages.Client
                 await MySQL.SaveAlliance(alliance);
             }
             else
-            {*/
+            {
                 await Resources.Gateway.Send(new AllianceCreateFailed(Device));
             //}
         }
